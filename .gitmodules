@@ -1,3 +1,9 @@
 [submodule "dependencies/mp-units"]
 	path = dependencies/mp-units
 	url = git@github.com:mpusz/mp-units.git
+[submodule "dependencies/gsl-lite"]
+	path = dependencies/gsl-lite
+	url = git@github.com:gsl-lite/gsl-lite.git
+[submodule "dependencies/fmt"]
+	path = dependencies/fmt
+	url = git@github.com:fmtlib/fmt.git

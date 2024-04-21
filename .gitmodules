@@ -1,0 +1,3 @@
+[submodule "dependencies/mp-units"]
+	path = dependencies/mp-units
+	url = git@github.com:mpusz/mp-units.git

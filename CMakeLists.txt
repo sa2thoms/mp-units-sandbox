@@ -12,6 +12,8 @@ add_executable(app
     src/main.cpp
     src/compute_speed.cpp)
 
+add_compile_definitions(_LIBCPP_HAS_NO_LOCALIZATION)
+
 add_subdirectory(dependencies/gsl-lite)
 add_subdirectory(dependencies/fmt)
 add_subdirectory(dependencies/mp-units/src)
